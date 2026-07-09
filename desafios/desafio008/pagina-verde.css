@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: lightcoral;
+    text-decoration: underline
+}
+
+p{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+ul{
+    color: lightcoral;
+}
+
+a{
+    color: blue;
+}

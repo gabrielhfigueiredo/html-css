@@ -1,0 +1,22 @@
+@charset "URF-8";
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(153, 0, 0, 0.705);
+    background-color: rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 1.5em;
+    color: hsl(hue, saturation, lightness);
+}
+
+p{
+    text-align: justify;
+}

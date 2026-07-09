@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        .d1:hover {
+            background-color: rgb(226, 114, 114);
+        }
+
+        .d1 {
+            display: inline-block;
+            background-color: lightgray;
+            border-radius: 5px;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        .conteudo {
+            color: rgba(0, 0, 0, 0.616);
+        }
+
+        #hiden > p{
+            display: none;
+        }
+
+        #hiden:hover > p {
+            display: block;
+            font-size: 1.5em;
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="d1">01
+        <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odit et aperiam, blanditiis numquam consectetur laborum nostrum, eveniet deserunt non deleniti! Asperiores exercitationem mollitia dolorum voluptate quae commodi.</p>
+    </div>
+    <div class="d1">02
+        <p class="conteudo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum omnis nesciunt sint aliquam consectetur atque minima perspiciatis laboriosam sed quisquam, quibusdam incidunt odio obcaecati delectus asperiores ut ipsa iure cum.</p>
+    </div>
+
+    <div id="hiden">
+        Passe o mouse aqui  
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>
